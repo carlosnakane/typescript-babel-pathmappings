@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "@babel/typescript",
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@util": "./src/util",
+          "@model": "./src/model",
+          "@mock": "./src/mock",
+        }
+      }
+    ]
+  ]
+}

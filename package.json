@@ -1,0 +1,46 @@
+{
+  "name": "typescript-babel-pathmappings",
+  "version": "1.0.0",
+  "description": "How to setup a typescript project using babel as transpiler",
+  "main": "index.js",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "webpack",
+    "build:types": "tsc --emitDeclarationOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosnakane/typescript-babel-pathmappings.git"
+  },
+  "keywords": [
+    "typescript",
+    "babel",
+    "path",
+    "mapping",
+    "jest"
+  ],
+  "author": "Carlos Nakane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosnakane/typescript-babel-pathmappings/issues"
+  },
+  "homepage": "https://github.com/carlosnakane/typescript-babel-pathmappings#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "source-map-loader": "^0.2.4",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.15",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "fork-ts-checker-webpack-plugin": "^1.4.3",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
